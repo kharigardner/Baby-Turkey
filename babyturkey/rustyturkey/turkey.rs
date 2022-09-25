@@ -1,1 +1,0 @@
-/* this is the main script for the database, combining the utility scripts to intialize the database */

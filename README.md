@@ -1,27 +1,33 @@
 # Baby Turkey
 
-## *In-memory database made for a wide variety of use cases*
+## *The all-in-one solution to all things data*
 
 <div>&nbsp;</div>
 
 ## **Introduction**
- Baby Turkey is an optimized, robust, and easy to use in-memory document database with graph support.
- The database is written in both Python and Rust, and is optimized for speed, memory usage, and ease of access for object oriented programming. This project was inspired by [Dagoba](https://github.com/skvrahul/dagoba).
+ Baby Turkey is an optimized, robust, easy to use, fully featured database for both transactional and analytical use cases. The database is multi-modal, allowing data to be stored in tabular, document, and graph format. The database features a rich unique query language similar to traditional SQL, along with in database machine learning, in database visualization, rich graph analytics, and a balance of read/write performance and storage efficiency.
+ Baby Turkey also includes a one-click deployment solution for both local and cloud environments. The deployment solution is fully customizable, allowing users to deploy Baby Turkey on any cloud provider, or on any local machine. The deployment solution also includes a fully featured web interface for database management, query execution, and data visualization. Finally, the database is fully open source, allowing users to modify the database to their needs, along with having an open-source low code visual api development kit, allowing users to create APIs for their data and power their applications with ease.
 
 <div>&nbsp;</div>
 
 ## **Features**
-- :watch: Asynchronous database operations
-- :chart: Graph support, through both the use of native [Gobble Query Language]() along with Python and Rust bindings
-- :bread: Rust, Python query bindings along with SQL statement support
-- :cherries: Stored procedures, paramterized queries, and multi database support
-- :window: Window, aggregate, and ML support for in database analytics
-- :rocket: Super compact, storage efficient and compresssed with the use of "lzzzz" compression library, along with rar archiving, and data partitioning
+- :graph: In database visualization tools, can create visualizations with the query language
+- :chart_with_upwards_trend: In database machine learning, can train models with the query language
+- :file_folder: Multi-modal, can store data in tabular, document, and graph format, able to query the same data entity in all three formats
+- :mag: Rich query language, similar to traditional SQL, but with many more features and capabilities
+- :rocket: Optimized, able to handle large amounts of data, and able to handle complex queries, built on top of Rust and Python
+- :lock: Robust, able to handle many concurrent users, and able to handle many concurrent queries
+- :computer: Easy to use, able to be used with a variety of programming languages, and able to be used with a variety of tools
+- :cloud: One-click deployment solution, able to deploy Baby Turkey on any cloud provider, or on any local machine
+- :open_file_folder: Fully open source, able to modify the database to your needs, and able to modify the deployment solution to your needs
+- :hammer: Low code visual api development kit, able to create APIs for your data, and able to power your applications with ease
 
 <div>&nbsp;</div>
 
 ## **Installation**
-Baby Turkey is available on [PyPi](https://pypi.org/project/baby-turkey/) and [Crates.io](https://crates.io/crates/baby_turkey). To install, simply run the following command:
+To install Baby Turkey, you can download the latest release from the [releases page](releases). You can also install Baby Turkey from source by cloning the repository and running `make install`. To run Baby Turkey, you can run `babyturkey` from the command line.
+
+Baby Turkey language packages are available on [PyPi](https://pypi.org/project/baby-turkey/) and [Crates.io](https://crates.io/crates/baby_turkey). To install, simply run the following command:
 
 ```bash
 pip install baby-turkey
